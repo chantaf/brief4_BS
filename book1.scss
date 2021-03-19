@@ -1,0 +1,189 @@
+$tablecolor:#45A29e;
+$titlebgcolor:#45A29e;
+$mygreen:#66fcf1;
+$mygrey:#1f2833;
+$display:flex;
+$text-decoration: none;
+body{
+    margin: 0px;
+    padding: 0px;
+     background-image: url('images/bookback.jpg');
+    background-size: 100%;
+    height: 100%;
+  
+}
+
+.total{
+    background:$mygrey;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 11%;
+   margin-top: 10%;
+   margin-bottom: 5%;
+   padding: 50px;
+   
+}
+
+.form{
+    text-align: center;
+    margin-left: 30%;
+    width: 80%;
+    
+}
+
+.form #wiri{
+    border-radius: 8px;
+    padding: 2%;
+    width: 94%;
+    margin-top: 7%;
+}
+
+.form input{
+    border-radius: 5px;
+    border: none;
+    margin-top: 6%;
+    padding: 2%;
+    width: 90%;
+}
+
+
+.form #btn{
+    margin-left: 100%;
+    
+}
+.liste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.liste table {
+    background-color:$tablecolor;
+    margin-bottom: 3%;
+    opacity: 80%;
+    border-collapse: collapse;
+    width: 70%;
+  
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }}
+  
+ 
+.title2 h2 {
+    text-align: center;
+    width: 150px;
+    opacity: 90%;
+    color: $mygreen;
+    border: solid;
+    border-radius: 10px;
+}
+.title2 {
+    display: flex;
+    justify-content: center;
+}
+.titre h1 {
+    color:white;
+
+}
+td {
+    color: white;
+}
+title {
+    height: 100px;
+}
+
+
+ input[type=submit] {
+    width: fit-content;
+    background-color: grey;
+    color: white;
+    padding: 8px 4px;
+    font-size: 10PX;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer; 
+  }
+ 
+
+/**************************************************************************************/
+
+
+    $width: 90%;
+    $flex-direction1:row;
+    $justify-content: flex-end;
+    $font-size:100%;
+
+    $height: auto;
+    $flex-direction: column;
+    $justify-content: space-between;
+    $padding: 0%;
+
+   $margin-left2: 36%;
+   $text-align: center;
+   $margin-left: auto;
+   $margin-left1: 67%;
+   $font-size1:80%;
+@media screen and (max-width: 880px) {
+
+    .nav1{
+        width:$width;
+        display: $display;
+        flex-direction:$flex-direction1;
+        justify-content: $justify-content;
+        font-size:$font-size;
+        
+    }
+    
+    
+    .nav{
+        height: $height;
+        display: $display;
+        flex-direction: $flex-direction;
+        justify-content:  $justify-content;
+        padding: $padding;
+    }
+    
+    
+    #imglogo{
+        display: $display;
+        margin-left: $margin-left2;
+        
+    }
+
+
+.form{
+    text-align:  $text-align;
+    margin-left: $margin-left;
+  
+}
+
+.form #btn{
+    margin-left: $margin-left1;
+}
+
+.footer{
+    display: grid ;
+    grid-template-columns: auto ;
+    height: auto  !important;
+    padding-top: 2%;
+    
+}
+.footer-items{
+    padding-top: 2%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.nav a{
+    font-size: $font-size1;  
+}
+
+
+
+}
+

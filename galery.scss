@@ -1,0 +1,200 @@
+$bgcolornav: #66FCF1;
+$coloract: #45A29E ;
+$colornav: black ;
+$corolhover:#45A29E;
+$display:flex;
+$text-decoration: none;
+body{
+    background-image: url(images/blackbg2.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-size: 100%;
+    height: 100%;
+  
+}
+
+
+
+/******************************************************************************************/
+
+
+
+
+.footer{
+    
+    height: 76px;
+    text-align: center;
+    background: #7E685A;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    color:white;
+    padding-top: 2%;
+    
+}
+$border-radius: 5px;
+.totalrech{
+    display: $display ;
+    flex-direction:row;
+    color: rgb(253, 253, 253);
+
+}
+
+#wiriter,#pricemin,#pricemax,#buttrech{
+    border-radius:$border-radius; 
+    border: none;
+    margin-left: 3%;
+    padding: 2%;
+    
+}
+.inputprix{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin-left: 3%;
+    width: 65%;
+    margin-top: 5%;
+    font-size: 100%
+}
+
+.selwiriter{
+    margin-left: 3%;
+    width: 35%;
+    margin-top: 4.5%;
+    font-size: 100%;
+
+}
+
+
+.imgg{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-align: center;    
+}
+.imgg img{
+    height: 200px;
+    width: 200px;
+}
+
+#pr,#pr1{
+    color:white;
+    background-color: $colornav;
+}
+
+/**************************************************************************************/
+
+
+$width: 90%;
+$flex-direction1:row;
+$justify-content: flex-end;
+$font-size:100%;
+
+$height: auto;
+$flex-direction: column;
+$justify-content: space-between;
+$padding: 0%;
+$font-size1:80%;
+$margin-left2: 36%; 
+$text-align: center;
+$justify-content1: center  !important;
+$display1: grid;
+
+@media screen and (max-width: 880px) {
+
+        
+.nav1{
+    width: $width;
+    display: $display;
+    flex-direction:$flex-direction1;
+    justify-content: $justify-content;
+    font-size:$font-size;
+    
+}
+
+
+.nav{
+    height: $height;
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    padding: $padding;
+}
+
+
+#imglogo{
+    display: $display;
+    margin-left:1%;
+    
+}
+
+.totalrech{
+    display: $display;
+    flex-direction:$flex-direction;
+    text-align: $text-align;
+    justify-content: $justify-content1;
+
+
+}
+
+
+.selwiriter{
+    margin-left: 0%  !important;
+    width: 100% !important;
+    justify-content: $justify-content1;
+    text-align: $text-align;
+    margin-top: 4.5%;
+    font-size: $font-size;
+
+}
+
+
+.inputprix{
+    display: $display1;
+    grid-template-columns: auto ;
+    text-align:$text-align ;
+    margin-left: 0% !important;
+    width: 100% !important;
+    justify-content: $justify-content1;
+    margin-top: 7% i !important;
+    
+}
+
+#pricemin,#pricemax,#buttrech{
+    padding: 5%;
+    margin-top: 8%;
+}
+
+.imgg{
+    
+    display: $display1;
+    grid-template-columns: auto auto;
+    text-align:$text-align;
+}
+
+.footer{
+    display: grid ;
+    grid-template-columns: auto ;
+    height: auto  !important;
+   
+}
+
+.footer-items{
+    padding-top: 2%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    .nav a{
+        font-size: $font-size1;  
+    }
+
+
+.imgg{
+    display: $display1;
+    grid-template-columns: auto ;
+    text-align: $text-align;
+}
+}
+
+

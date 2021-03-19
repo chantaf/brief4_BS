@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("images/bookback.jpg");
+  background-size: 100%;
+  height: 100%;
+}
+
+.total {
+  background: #1f2833;
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 11%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 50px;
+}
+
+.form {
+  text-align: center;
+  margin-left: 30%;
+  width: 80%;
+}
+
+.form #wiri {
+  border-radius: 8px;
+  padding: 2%;
+  width: 94%;
+  margin-top: 7%;
+}
+
+.form input {
+  border-radius: 5px;
+  border: none;
+  margin-top: 6%;
+  padding: 2%;
+  width: 90%;
+}
+
+.form #btn {
+  margin-left: 100%;
+}
+
+.liste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.liste table {
+  background-color: #45A29e;
+  margin-bottom: 3%;
+  opacity: 80%;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.liste table th, .liste table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.title2 h2 {
+  text-align: center;
+  width: 150px;
+  opacity: 90%;
+  color: #66fcf1;
+  border: solid;
+  border-radius: 10px;
+}
+
+.title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titre h1 {
+  color: white;
+}
+
+td {
+  color: white;
+}
+
+title {
+  height: 100px;
+}
+
+input[type=submit] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: grey;
+  color: white;
+  padding: 8px 4px;
+  font-size: 10PX;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/**************************************************************************************/
+@media screen and (max-width: 880px) {
+  .nav1 {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 100%;
+  }
+  .nav {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0%;
+  }
+  #imglogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 36%;
+  }
+  .form {
+    text-align: center;
+    margin-left: auto;
+  }
+  .form #btn {
+    margin-left: 67%;
+  }
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    height: auto  !important;
+    padding-top: 2%;
+  }
+  .footer-items {
+    padding-top: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav a {
+    font-size: 80%;
+  }
+}
+/*# sourceMappingURL=book1.css.map */
